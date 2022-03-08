@@ -25,7 +25,7 @@ try:
 except ValueError:
     print("that is not a number try again")
 
-print("The dragon with", int(dragon_hp), "hp attacks out hero with", int(hero_hp), "hp")
+print("The dragon with", dragon_hp, "hp attacks out hero with", hero_hp, "hp")
 
 # add a While for an infinite block
 # here goes the while:
@@ -43,7 +43,7 @@ while True:
     hero_attack = random.randint(1, hero_max_dmg)
     # here you need to update the dragon hp, you need to subtract the damage that the hero did
     # add code on this line
-    new_dragon_hp = int(dragon_hp - hero_attack)
+    new_dragon_hp = dragon_hp - hero_attack
     print("The hero does", hero_attack, "damage and the dragon has", new_dragon_hp, "hp left")
     # add an if condition to check if the dragon was killed by the hero
     # here goes the if
