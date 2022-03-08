@@ -1,7 +1,7 @@
 import random
 # import random is a simple library that implements the random number generator behavior
 
-# Please read into the variables below the correct numbers. Use try and except to catch error.
+# please read into the variables below the correct numbers. Use try and except to catch error.
 # a simple example would be:
 # hero_hp = int(input("how many hp does the hero have?"))
 try:
